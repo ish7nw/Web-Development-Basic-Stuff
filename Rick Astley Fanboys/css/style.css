@@ -1,0 +1,98 @@
+
+html 
+{
+    background-image: url(images/mainback.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+
+body 
+{
+
+
+    color: #333333; 
+    font-family: 'Roboto', sans-serif; 
+    width: 1000px;
+    border: 20px solid #ffffff; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header 
+{
+    background-image: linear-gradient(to bottom, rgb(247, 0, 255), rgba(0, 234, 255, 0.9));
+    color: #ffffff;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; 
+}
+
+
+header h1, header h2 
+{
+    margin: 0;
+    font-family: 'Pacifico', cursive; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+
+nav 
+{
+    background: #333333;
+    padding: 10px 0; 
+}
+
+nav ul 
+{
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: space-around; 
+}
+
+nav a 
+{
+    font-weight: bold;
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+
+main 
+{
+    background-color: #ffffff;
+    display: flex; 
+}
+
+article, aside 
+{
+    padding: 20px;
+}
+
+
+aside 
+{
+    background-color: #dddddd; 
+    width: 300px;
+    border-radius: 10px; 
+}
+
+
+footer 
+{
+    background-color: #3d4348;
+    color: #ffffff;
+    padding: 20px;
+}
+
+footer a 
+{
+    color: #99ddff; 
+    font-weight: bold;
+}
