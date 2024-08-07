@@ -1,0 +1,76 @@
+body 
+{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    /* background: linear-gradient(90deg, rgba(0,0,0,1) 26%, rgba(255,255,255,1) 100%); */
+    color: azure;
+}
+
+.menu 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 25px 0 0 450px;
+    text-transform: uppercase;
+    font: 14px / 28px D-DIN-Bold, Arial, Verdana, sans-serif;
+}
+
+.menu li 
+{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.logo 
+{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.head 
+{
+    z-index: 1;
+    width: 100vw;
+    height: 50vw;
+    padding-top: 0;
+}
+
+a 
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover 
+{
+    text-decoration: underline;
+    text-decoration-color: lightskyblue;
+}
+
+.mlogo 
+{
+    padding-top: 2%;
+    width: 12%;
+}
+
+.newvid
+{
+    padding-top: 45px;
+    width: 100%;
+
+}
+
+.gradient
+{
+    position: relative;
+    padding-top: 85px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, black, rgba(219, 219, 219, 0));
+}
+
+
